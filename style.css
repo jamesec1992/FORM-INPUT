@@ -1,0 +1,32 @@
+form {
+    max-width: 600px;
+    background-color: violet;
+    margin: 200px auto;
+    padding: 50px;
+    border-radius: 10px;
+    border: solid;
+    border-color: orange;
+}
+
+form div input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 100px;
+}
+
+form div input :focus {
+    border-color: tomato;
+}
+
+form input:nth-child(4) {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
